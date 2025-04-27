@@ -20,7 +20,9 @@ jobs:
         run: dotnet build --configuration Release
       - name: run
         working-directory: Helloword/bin/Release/net8.0
-        run: docker Helloword.dll
+        run: |
+          pwd 
+          docker Helloword.dll
           
 
           
