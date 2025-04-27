@@ -20,8 +20,8 @@ jobs:
         run: dotnet build --configuration Release
       - name: run
         run: |
-          cd Helloword/bin/Release/net8.0
-          ls
+          ls Helloword/bin/Release/net8.0
+          
 
           
           
