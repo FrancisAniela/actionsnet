@@ -19,7 +19,9 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release
       - name: run
-        run: dotnet Helloword\bin\Release\net8.0\Helloword.dll
+        run: |
+          cd Helloword/bin/Release/net8.0
+          dotnet HelloWorld.dll
           
           
 
