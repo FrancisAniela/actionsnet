@@ -22,6 +22,7 @@ jobs:
         working-directory: Helloword/bin/Release/net8.0
         run: |
           pwd 
+          ls
           docker Helloword.dll
           
 
