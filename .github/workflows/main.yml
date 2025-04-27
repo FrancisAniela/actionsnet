@@ -21,6 +21,7 @@ jobs:
       - name: run
         run: |
           cd Helloword/bin/Release/net8.0
+          ls
           dotnet HelloWorld.dll
           
           
