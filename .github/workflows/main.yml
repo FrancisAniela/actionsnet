@@ -23,7 +23,7 @@ jobs:
         run: |
           pwd 
           ls
-          docker Helloword.dll
+          dotnet Helloword.dll
           
 
           
